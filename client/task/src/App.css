@@ -1,0 +1,17 @@
+.back{
+ border: 2px solid ;
+ border-radius: 10px;
+ border-color: rgb(255, 255, 255);
+ height: 330px;
+ width: 350px;
+
+}
+
+.back2{
+    border: 2px solid ;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    height: 560px;
+    width: 350px;
+   
+   }
