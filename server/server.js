@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 4000; // Set a default port if PORT is not defi
 const server = express();
 
 server.use(cors({
-  origin: 'http://localhost:3000', // Replace with the actual URL of your frontend application
+  origin: 'task-web-nine.vercel.app', // Replace with the actual URL of your frontend application
   credentials: true // Allow credentials (cookies) to be sent with the request
 }));
 
