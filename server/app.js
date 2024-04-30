@@ -16,7 +16,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ['task-web-oo9f.vercel.app'],
+    origin: ['https://task-web-oo9f.vercel.app'],
     methods: ["GET", "PUT", "DELETE", "POST"],
     credentials: true,
   })
