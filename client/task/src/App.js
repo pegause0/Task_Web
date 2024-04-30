@@ -17,7 +17,7 @@ const App = () => {
     const handleGetUser = async () => {
       try {
         const { data } = await axios.get(
-          "https://task-web-nine.vercel.app",
+          "https://task-web-nine.vercel.app/regester",
           { withCredentials: true }
         );
         setIsAuthenticated(true);
